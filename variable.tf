@@ -166,7 +166,7 @@ variable "retention_in_days" {
 variable "short_name" {
   description = "Short name for action group"
   type        = string
-  default     = "demo-short-name"
+  default     = "demoshort"
 }
 
 variable "threshold" {
