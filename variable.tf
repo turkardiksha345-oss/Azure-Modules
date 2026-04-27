@@ -97,7 +97,7 @@ variable "storage_account_type" {
 variable "storage_account_name" {
   description = "Name of the storage account"
   type        = string
-  default     = "demostoragedikshasaccount"
+  default     = "storagedikshasaccount"
 }
 
 variable "storage_container_name" {
