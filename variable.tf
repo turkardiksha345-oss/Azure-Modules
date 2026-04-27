@@ -110,7 +110,7 @@ variable "storage_container_name" {
 variable "blob_name" {
   description = "Name of the blob file"
   type        = string
-  default     = "sample-file.zip"
+  default     = "demodikshablob"
 }
 
 variable "account_tier" {
