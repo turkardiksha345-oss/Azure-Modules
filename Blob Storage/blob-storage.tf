@@ -22,5 +22,7 @@ resource "azurerm_storage_blob" "blob" {
   storage_account_name   = azurerm_storage_account.storage.name
   storage_container_name = azurerm_storage_container.container.name
   type                   = "Block"
-  source                 = var.blob_name # file must exist in same folder
+  source = "index.html"# file must exist in same folder
+
 }
+
